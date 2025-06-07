@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8"
+            <meta name="viewport" content="width=device-width,
+            initial-scale=1.0">
+            <title>javaScript Frontend</title>
+        </head>
+        <body>
+            <style>
+                .section{background-color: blueviolet;padding: 2em;cursor: pointer;}
+            </style>
+            <div class="section">
+             <input type="text" id="textname">
+             <input type="text" id="txtAddress">
+            <button title="red-button" onclick="getmsg()">Click Here</button>
+       </div> 
+       <script>
+        function getmsg()
+        {
+        let text1 = document.getElementById('textname').value
+        let text2 = document.getElementById('txtAddress').value
+        alert(text1 + " " + text2);
+        }
+       </script>
+    </body> 
+    </html>
